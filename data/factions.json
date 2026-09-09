@@ -1,0 +1,34 @@
+{
+  "factions": [
+    {
+      "id": "emerald_pack",
+      "name": "Meute Émeraude",
+      "identity": "Rush, pack bonus, vitesse",
+      "hero": {
+        "id": "veyra",
+        "name": "Veyra l’Alpha",
+        "primary": "attack",
+        "specialty": "pack_adjacent_attack"
+      },
+      "nativeTerrain": "jungle",
+      "resourceBias": "meat",
+      "magic": "instinct",
+      "placeholderColor": "#2E8B57"
+    },
+    {
+      "id": "marsh_nest",
+      "name": "Nid des Marais",
+      "identity": "Tank, zone control, late",
+      "hero": {
+        "id": "mora",
+        "name": "Mora la Mère-Nid",
+        "primary": "defense",
+        "specialty": "nest_armor_regen"
+      },
+      "nativeTerrain": "swamp",
+      "resourceBias": "bone",
+      "magic": "cataclysm",
+      "placeholderColor": "#4A5D23"
+    }
+  ]
+}
